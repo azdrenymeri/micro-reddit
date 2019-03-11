@@ -1,5 +1,3 @@
-# README
-
 ## This project is an example of a system where a user can create posts and others can comment on those posts.
 
 ### Validations:
