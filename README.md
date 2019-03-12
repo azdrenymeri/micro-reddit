@@ -10,7 +10,7 @@
 
 * Comment must be between 5-200 characters long.
 
-### Use these commands on therminal
+### Use these commands on terminal
 
 cd ~/micro-reddit
 rails console
