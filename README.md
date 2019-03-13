@@ -1,24 +1,24 @@
-# README
+## This project is an example of a system where a user can create posts and others can comment on those posts.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Validations:
 
-Things you may want to cover:
+* Username must be between 3-35 characters long and must be unique.
+* Email must not be null and has to be unique.
 
-* Ruby version
+* Post title must be between 5-20 characters long.
+* Post body must be between 20-360 characters long.
 
-* System dependencies
+* Comment must be between 5-200 characters long.
 
-* Configuration
+### Use these commands on terminal
 
-* Database creation
+cd ~/micro-reddit
+rails console
 
-* Database initialization
+You can then create new users, posts or comments:
+*user/comment/post*.create
 
-* How to run the test suite
+### Contributors:
+* [@azdrenymeri](https://github.com/azdrenymeri) 
+* [@milosvukadinovic](https://github.com/milosvukadinovic)
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
